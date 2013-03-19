@@ -1,0 +1,17 @@
+body{font-family: Arial, sans-serif; font-size: 9pt; margin: 0px;}
+.float-right {float: right;}
+.float-left {float: left;}
+.print-page{height: 1122px; overflow: hidden; page-break-before: always;}
+.container{text-align: center;}
+.container .content{ padding: 0 58px; text-align: justify; margin: 0 auto;}
+.container .span10 {margin:0;}
+.container .span10.boder-bottom {margin: 0 auto; border-bottom: 1px solid #000; padding-bottom: 10px; padding-top: 10px;}
+.container .span10 .application-name {font-size: 20pt; font-weight: bold;}
+.container .span5 h5 {font-size: 9pt; margin: 0;}
+.container .span5, .container .span6 {margin: 5px 0;}
+.container .span5.content-text {margin: 4px 0;}
+.container .span5 .appication-no {font-size: 20px;}
+.container .print-label {min-width: 120px;}
+
+.container .span6 .control-group{margin: 10px 0 0;}
+.container .span6 .control-group label{font-size: 9pt; font-weight: bold; margin-bottom: 0;}

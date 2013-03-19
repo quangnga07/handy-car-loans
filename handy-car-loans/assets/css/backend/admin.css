@@ -1,0 +1,352 @@
+@media (max-width: 767px) {
+	#loginbox {
+		height: 215px !important;
+		background: red;
+	}
+}
+
+#loginbox .form-actions {
+	border-radius: 0 0 15px 15px;
+}
+#loginbox form {
+	border-radius: 7px;
+}
+
+#hello_logo {
+	position: absolute;
+	left: 40px;
+	margin-top: -37px;
+}
+
+#header-welcome {
+	display: block;
+	position: absolute;
+	left: -150px;
+	top: 5px;
+	color: #aaa;
+	font-size:11px;
+}
+#content { 
+	min-height: 970px;
+}
+.span12 .stat-boxes li {
+	margin: 0 6px;
+    padding: 10px;
+    vertical-align: top;
+    min-height: 75px;
+    width: 115px;
+}
+.span12 .stat-boxes li div strong {
+	font-size: 20px;
+}
+.span12 .stat-boxes div.space {
+	display: inline-block;
+    width: 60px;
+}
+#pagination {
+	text-align: center;
+}
+
+.incomplete-box, .required-box, .staff-box, .dashboard-box {
+    position: relative;
+}
+.dashboard-box5 {
+    position: relative;
+}
+.incomplete-content, .required-content, .staff-content, .dashboard-content, .dashboard-content5 {
+	overflow: scroll;
+    overflow-x:hidden;
+}
+.incomplete-table, .required-table, .staff-table {
+	min-height: 400px;
+}
+.dashboard-table {
+	min-height: 250px;	
+}
+.incomplete-table thead tr, .required-table thead tr, .staff-table thead tr, .dashboard-table thead tr{
+	left: 0;
+    top: 38px;
+}
+.incomplete-title, .required-title, .staff-title, .dashboard-title {
+	left: 0;
+    position: relative;
+    width: 100%;
+}
+.dashboard-title5 {
+	left: 0;
+    position: relative;
+    width: 100%;
+}
+th.incomplete-id { width: 75px; }
+th.incomplete-name {  width: 150px; }
+th.incomplete-mobile { width: 110px; }
+th.incomplete-website { width: 115px; }
+th.incomplete-datetime { width: 135px; }
+th.incomplete-days { width: 74px; }
+th.incomplete-auto-sms { width: 76px; }
+th.incomplete-auto-email { width: 76px; }
+th.incomplete-broker-id { width: 89px; }
+
+td.incomplete-id{ width: 79px; }
+td.incomplete-name {  width: 152px; }
+td.incomplete-mobile { width: 113px; }
+td.incomplete-website { width: 118px; }
+td.incomplete-datetime { width: 138px; }
+td.incomplete-days { width: 78px; }
+td.incomplete-auto-sms { width: 79px; }
+td.incomplete-auto-email { width: 79px; }
+td.incomplete-broker-id { width: 75px; }
+
+th.required-id, th.staff-id, th.supervisor-id { width: 74px; }
+th.required-name, th.staff-name, th.supervisor-name { width: 140px; }
+th.required-mobile, th.staff-mobile, th.supervisor-mobile { width: 107px; }
+th.required-loan, th.staff-loan, th.supervisor-loan { width: 54px; }
+th.required-website, th.staff-website, th.supervisor-website { width: 114px; }
+th.required-datetime, th.staff-datetime, th.supervisor-datetime { width: 129px; }
+th.required-days, th.staff-days, th.supervisor-days { width: 75px; }
+th.required-docs, th.staff-viewed, th.supervisor-viewed { width: 74px; }
+th.required-rank, th.staff-rank, th.supervisor-rank { width: 50px; }
+th.required-broker-id, th.staff-broker-id, th.supervisor-broker-id { width: 60px; }
+
+td.required-id, td.staff-id, td.supervisor-id { width: 78px; }
+td.required-name, td.staff-name, td.supervisor-name { width: 144px; }
+td.required-mobile, td.staff-mobile, td.supervisor-mobile { width: 111px; }
+td.required-loan, td.staff-loan, td.supervisor-loan { width: 58px; }
+td.required-website, td.staff-website, td.supervisor-website { width: 118px; }
+td.required-datetime, td.staff-datetime, td.supervisor-datetime { width: 133px; }
+td.required-days, td.staff-days, td.supervisor-days { width: 79px; }
+td.required-docs, td.staff-viewed, td.supervisor-viewed { width: 78px; }
+td.required-rank, td.staff-rank, td.supervisor-rank { width: 54px; }
+td.required-broker-id, td.staff-broker-id, td.supervisor-broker-id { width: 47px; }
+
+th.market-id { width: 75px; }
+th.market-name {  width: 150px; }
+th.market-mobile { width: 110px; }
+th.market-loan { width: 56px; }
+th.market-website { width: 119px; }
+th.market-status { width: 78px; }
+th.market-datetime { width: 140px; }
+th.market-rank { width: 78px; }
+th.market-broker-id { width: 92px; }
+
+td.market-id{ width: 75px; }
+td.market-name {  width: 148px; }
+td.market-mobile { width: 108px; }
+td.market-loan { width: 58px; }
+td.market-website { width: 118px; }
+td.market-status { width: 78px; }
+td.market-datetime { width: 138px; }
+td.market-rank { width: 79px; }
+td.market-broker-id { width: 75px; }
+
+.article-post div {
+	margin: 0 10px 10px;
+}
+
+.user-info {
+	background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+
+fieldset {
+    border: 1px solid #E5E5E5;
+    border-radius: 4px 4px 4px 4px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.input-small {
+    width: 30px !important;
+}
+.input-medium {
+    width: 40px !important;
+}
+.input-postcode {
+    width: 60px !important;
+}
+.input-match-select {
+    width: 116px !important;
+    padding-left: 16px !important;
+}
+
+.documents-display {
+	padding: 0;
+	margin: 0;
+}
+.documents-display li {
+    list-style-type: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.doc_label {
+	font-size: 11px;
+    margin-left: 48px;
+}
+p.filename {
+	margin: 0;
+}
+.filename a {
+	color: #000;
+}
+.filename a:hover {
+	text-decoration: underline;
+}
+span[class^="file-"] {
+	float: left;
+	height: 48px;
+	width: 48px;
+}
+.file-doc, .file-DOC,
+.file-docx, .file-DOCX,
+.file-msword, .file-MSWORD {
+	background: url(../../img/filetypes/file_doc.png) no-repeat;
+}
+.file-bmp, .file-BMP {
+	background: url(../../img/filetypes/file_bmp.png) no-repeat;
+}
+.file-pdf, .file-PDF {
+	background: url(../../img/filetypes/file_pdf.png) no-repeat;
+}	
+.file-jpg, .file-JPG,
+.file-jpeg, .file-JPEG {
+	background: url(../../img/filetypes/file_jpg.png) no-repeat;
+}
+.file-gif, .file-GIF {
+	background: url(../../img/filetypes/file_gif.png) no-repeat;
+}
+.file-png, .file-PNG {
+	background: url(../../img/filetypes/file_png.png) no-repeat;
+}
+.file-txt, .file-TXT {
+	background: url(../../img/filetypes/file_txt.png) no-repeat;	
+}
+.file-tif, .file-TIF {
+	background: url(../../img/filetypes/file_tif.png) no-repeat;
+}
+hr {
+	border-color: #E5E5E5;
+}
+
+/* Tank table design */
+.dataTables_filter { 
+	display: none; 
+}
+#DataTables_Table_1_paginate {
+	/*display: none;*/
+}
+.dataTables_paginate {
+	text-align: center;
+}
+.dataTables_length {
+	margin: 5px 5px 0;
+	top: 0px;
+}
+.dataTables_length select {
+	width: 60px;
+}
+.dashboard-content .dataTables_length, .dashboard-content5 .dataTables_length {
+	display: none;
+}
+
+/* Search Tab */
+.fg-toolbar {
+	border-color: #D5D5D5;
+}
+.DataTables_sort_wrapper {
+	color: #666666;
+    font-size: 10px;
+    text-align: center;
+}
+.tablescroll_wrapper {
+	width: 1089px !important;
+}
+#search-footer {
+	color: #777;
+	text-align: right;
+}
+#search-button {
+	padding-left: 40px;
+}
+.search-content table tbody {
+	font-size: 11px;
+}
+#form-search input[name="search-for"] {
+	width: 180px;
+}
+#form-search input[name="date-from"], #form-search input[name="date-to"]{
+	width: 140px;
+	margin: 5px;
+}
+.manual-label label {
+	display: inline-block;
+	width: 330px;
+}
+
+#client-heading {
+    position: relative;
+}
+#client-heading .id-submitted {
+    float: right;
+}
+.id-submitted table tr td {
+    padding: 0 10px;
+}
+.id-submitted table tr td#id {
+    color: #529BE7;
+    font-weight: bold;
+}
+.id-submitted table tr td:first-child {
+	text-align: right;	
+}
+
+/* Pre-Set Messages CSS */
+.inline {
+	display: inline-block;
+	width: 110px;
+}
+.inline-errror {
+	width: 95px;
+}
+
+.remove-docs{
+    float: right;
+    cursor: pointer;
+}
+
+/* CMS CSS */
+.sortable_navigation {
+	list-style: none;
+}
+
+/* Bootstrap Style */
+.radio,
+.checkbox {
+	padding-left: 0;
+}
+
+.partial-match {
+	display: none;
+	/*display: inline-block;*/
+	color: red;
+}
+.activity-list li a span {
+	float: right;
+	margin-right: 50px;
+}
+.activity-content {
+	height: 300px;
+    overflow-y: scroll;
+}
+
+/* CKEDITOR CSS */
+#cke_dialog_ui_input_text input {
+	font-size: 13px;
+	width: 25px;
+}
+
+textarea[name="middle_widget_content[]"] {
+	max-width: 250px;
+}

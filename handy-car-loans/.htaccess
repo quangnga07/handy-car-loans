@@ -1,0 +1,18 @@
+RewriteEngine on
+
+# force redirect http for the other pages
+RewriteCond %{HTTPS} on
+RewriteCond %{REQUEST_URI} !(/apply|/apply/1|/apply/2|/apply/3|/apply/4|/apply/5|/apply/6|/registration/autosave|/registration/second_duplicate_check|/scores|/admin/email/send_templated_email|/documentuploader|/doc_upload/upload_docs|/doc_upload/remove_file|/doc_upload/print_fax_cover|doc_upload/print_post_cover|/doc_upload/save_upload)
+RewriteRule ^(.*)$ http://handycarloans.com.au/$1 [R,L]
+
+# force redirect https for the application form steps 1 to 6
+RewriteCond %{HTTPS} off
+RewriteCond %{REQUEST_URI} ^(/apply|/apply/1|/apply/2|/apply/3|/apply/4|/apply/5|/apply/6)
+RewriteRule ^(.*)$ https://handycarloans.com.au/$1 [R,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ ./index.php/$1 [L]
+
+#RewriteCond $1 !^(index\.php|images|robots\.txt|css|media|assets|js|css|images|img)
+#RewriteRule ^(.*)$ ./index.php/$1 [L]

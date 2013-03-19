@@ -1,0 +1,35 @@
+.HCLtooltip{
+    position:absolute;
+    z-index:999;
+    background-color: #D53821;
+    padding: 5px 10px;
+    margin-top:26px;
+    margin-left: 5px;
+    border-radius: 3px;
+    max-width: 144px;
+}
+
+.HCLtooltip .tooltip-arrow{
+    top:-7px;
+    left:0;
+    margin-left:10px;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-bottom:5px solid #D53821
+}
+.HCLtooltip.center .tooltip-arrow{
+    top:-7px;
+    left:50%;
+    margin-left:-5px;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-bottom:5px solid #D53821
+}
+
+.HCLtooltip p{
+    margin:0;
+    padding:0;
+    color:#fff;
+    font-size: 9px;
+    line-height: 1;
+}

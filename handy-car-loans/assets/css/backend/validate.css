@@ -1,0 +1,8 @@
+/* Justin's CSS for form validation */
+input.error, select.error {
+	border: 1px solid #E9322D !important;
+	box-shadow: 0 0 6px #F8B9B7 !important;
+}
+label.error {
+	display: none !important;
+}
